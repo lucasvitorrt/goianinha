@@ -1,0 +1,18 @@
+int x, y;
+car c;
+
+programa {
+    x = 10;
+    y = 2;
+    escreva x + y;
+    novalinha;
+    se (x == 10) entao {
+        escreva "ok";
+    } senao {
+        escreva "nope";
+    }
+    enquanto (x > 0) execute {
+        x = x - 1;
+    }
+    retorne x;
+}
