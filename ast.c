@@ -55,7 +55,7 @@ void printAST(AST *node, int level) {
         case NODE_BLOCO:      printf("Bloco\n"); break;
         case NODE_SEQ:        printf("Seq\n"); break;
         case NODE_PRINT:      printf("Escreva\n"); break;
-        case NODE_PRINT_STR:  printf("EscrevaString "%s"\n", node->text?node->text:""); break;
+        case NODE_PRINT_STR:  printf("EscrevaString \"%s\"\n", node->text?node->text:""); break;
         case NODE_READ:       printf("Leia %s\n", node->text?node->text:""); break;
         case NODE_RETURN:     printf("Retorne\n"); break;
         case NODE_IF:         printf("Se\n"); break;

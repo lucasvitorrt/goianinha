@@ -1,0 +1,20 @@
+int a, b, resultado;
+car letra;
+
+programa {
+    a = 5;
+    b = 3;
+    resultado = a * b;
+    escreva resultado;
+    escreva "Multiplicação feita!";
+    novalinha;
+    se (resultado > 10) entao
+        escreva "Resultado maior que 10!";
+    senao
+        escreva "Resultado menor ou igual a 10!";
+    enquanto (a > 0) execute {
+        escreva a;
+        a = a - 1;
+    }
+    retorne resultado;
+}
